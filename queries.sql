@@ -15,3 +15,5 @@
     drop table job;
 
 -- Part 4: Test it with SQL
+
+    select name, description from skills as s inner join job_skills as js on js.skills_id = s.id;
